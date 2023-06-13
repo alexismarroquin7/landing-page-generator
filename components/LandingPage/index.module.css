@@ -1,0 +1,54 @@
+.landing_page {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 2rem 4rem;
+  gap: 2rem;
+}
+
+.title {
+  width: 100%;
+}
+
+.title__align--left {
+  text-align: left;
+}
+.title__align--center {
+  text-align: center;
+}
+.title__align--right {
+  text-align: right;
+}
+
+.description {
+  width: 100%;
+}
+
+.description__align--left {
+  text-align: left;
+}
+.description__align--center {
+  text-align: center;
+}
+.description__align--right {
+  text-align: right;
+}
+
+.button_container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social_links_container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+}

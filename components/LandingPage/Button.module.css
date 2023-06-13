@@ -1,0 +1,25 @@
+
+.button {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  background-color: var(--green);
+  border: .2rem solid var(--green);
+}
+
+.button_icon_container {
+  display: flex;
+  font-size: 3rem;
+  
+}
+
+.text {
+  width: 80%;
+  font-weight: bold;
+  font-size: 1.8rem;
+  
+}

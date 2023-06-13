@@ -1,0 +1,24 @@
+.profile_image_container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.profile_image {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  border: 1rem solid var(--green);
+  background-color: #d9d9d9;
+}
+
+.profile_image__border_radius--circle {
+  border-radius: 100%;
+}
+.profile_image__border_radius--square {
+  border-radius: 0;
+}
+.profile_image__border_radius--squircle {
+  border-radius: 5rem;
+}
