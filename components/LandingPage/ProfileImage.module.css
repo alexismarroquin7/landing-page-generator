@@ -3,6 +3,8 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  position: relative;
+  z-index: 2;
 }
 
 .profile_image {

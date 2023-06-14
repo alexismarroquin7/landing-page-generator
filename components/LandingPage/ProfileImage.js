@@ -14,7 +14,8 @@ export const ProfileImage = ({profile}) => {
           className={`
             ${styles.profile_image}
             ${styles[`profile_image__border_radius--${style.border_radius}`]}
-          `}></div>
+          `}>
+          </div>
       </div>
   )
 }

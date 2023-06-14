@@ -1,0 +1,12 @@
+.banner_wrapper {
+  padding-bottom: 6rem;
+}
+
+.banner {
+  background-color: purple;
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  height: 20%;
+}

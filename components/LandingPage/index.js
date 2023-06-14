@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import styles from "./index.module.css";
 import { ProfileImage } from "./ProfileImage";
 import { SocialLink } from "./SocialLink";
+import { Banner } from "./Banner";
 
 const LandingPage = () => {
   const { state } = useLandingPage();
@@ -11,6 +12,7 @@ const LandingPage = () => {
     <div
       className={styles.landing_page}
     >
+      <Banner/>
       <ProfileImage profile={state.profile}/>
       
       <h1
