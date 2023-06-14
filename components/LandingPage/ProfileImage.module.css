@@ -13,6 +13,8 @@
   border-radius: 100%;
   border: 1rem solid var(--green);
   background-color: #d9d9d9;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 }
 
 .profile_image__border_radius--circle {
